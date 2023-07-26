@@ -1,4 +1,4 @@
-# Project-6: Continuous Integration on AWS Cloud
+# Continuous Integration on AWS Cloud
 
 ### Pre-Requisites:
 
