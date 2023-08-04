@@ -18,12 +18,12 @@ Name: vprofile-code-repo
 Next we will create an IAM user with `CodeCommit` access from IAM console. We will create a policy for `CodeCommit` and allow full access only for `vprofile-code-repo`.
 
 ```sh
-Name: vprofile-code-admin-repo-fullaccess
+Name: vprofile-code-admin-repo-full access
 ```
 
 ![](images/iam-codecommit-admin-user.png)
 
-To be able connect our repo, we will follow steps given in CodeCommit.
+To connect our repo, we will follow the steps in CodeCommit.
 
 ![](images/repo-connection-steps.png)
 
