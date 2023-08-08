@@ -1,5 +1,4 @@
 # Continuous Integration on AWS Cloud
-
 ### Pre-Requisites:
 
 * AWS Account
@@ -15,7 +14,7 @@ From AWS Console, and pick `us-east-1` region and go to `CodeCommit` service. Cr
 Name: vprofile-code-repo
 ```
 
-Next we will create an IAM user with `CodeCommit` access from IAM console. We will create a policy for `CodeCommit` and allow full access only for `vprofile-code-repo`.
+Next, we will create an IAM user with `CodeCommit` access from the IAM console. We will create a policy for `CodeCommit` and allow full access only for `vprofile-code-repo`.
 
 ```sh
 Name: vprofile-code-admin-repo-full access
@@ -27,7 +26,7 @@ To connect our repo, we will follow the steps in CodeCommit.
 
 ![](images/repo-connection-steps.png)
 
-First Create SSH key in local and add public key to IAM role Security credentials.
+First, Create the local SSH key and add the public key to the IAM role Security credentials.
 
 ![](images/sshkey-generated-local.png)
 
