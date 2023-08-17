@@ -9,7 +9,7 @@
 
 ### Step-1: Setup AWS CodeCommit 
 
-From AWS Console, and pick `us-east-1` region and go to `CodeCommit` service. Create repository.
+From AWS Console, pick the `us-east-1` region and go to the `CodeCommit` service. Create repository.
 ```sh
 Name: vprofile-code-repo
 ```
@@ -30,7 +30,7 @@ First, Create the local SSH key and add the public key to the IAM role Security 
 
 ![](images/sshkey-generated-local.png)
 
-We will also update configuration under `.ssh/config` and add our Host information. And change permissions with `chmod 600 config`
+We will also update the configuration under `.ssh/config` and add our Host information. And change permissions with `chmod 600 config`
 ```sh
 Host git-codecommit.us-east-1.amazonaws.com
     User <SSH_Key_ID_from IAM_user>
