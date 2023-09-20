@@ -129,7 +129,7 @@ Branch: ci-aws
 Environment: Ubuntu
 runtime: standard:5.0
 New service role
-Insert build commands from foler aws-files/sonar_buildspec.yml
+Insert build commands from folder aws-files/sonar_buildspec.yml
 Logs-> GroupName: vprofile-buildlogs
 StreamName: sonarbuildjob
 ```
