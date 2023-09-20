@@ -13,7 +13,6 @@ From AWS Console, pick the `us-east-1` region and go to the `CodeCommit` service
 ```sh
 Name: vprofile-code-repo
 ```
-
 Next, we will create an IAM user with `CodeCommit` access from the IAM console. We will create a policy for `CodeCommit` and allow full access only for `vprofile-code-repo`.
 
 ```sh
