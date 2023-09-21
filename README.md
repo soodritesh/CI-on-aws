@@ -9,6 +9,7 @@
 
 ### Step-1: Setup AWS CodeCommit 
 
+
 From AWS Console, pick the `us-east-1` region and go to the `CodeCommit` service. Create repository.
 ```sh
 Name: vprofile-code-repo
