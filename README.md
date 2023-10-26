@@ -37,14 +37,14 @@ Host git-codecommit.us-east-1.amazonaws.com
     IdentityFile ~/.ssh/vpro-codecommit_rsa
 ```
 
-We can test our ssh connection to CodeCommit.
+We can test our SSH connection to CodeCommit.
 ```sh
 ssh git-codecommit.us-east-1.amazonaws.com
 ```
 
 ![](images/codecommit-ssh-connection-successful.png)
 
-Next we clone the repository to a location that we want in our local. I will use the Github repository for `vprofile-project` in my local, and turn this repository to CodeCommit repository. When I am in Github repo directory, I will run below commands.
+Next we clone the repository to a location that we want in our local. I will use the Github repository for `vprofile-project` in my local, and turn this repository to a CodeCommit repository. When I am in Github repo directory, I will run below commands.
 [Project code](https://github.com/rumeysakdogan/vprofileproject-all.git)
 
 ```sh
