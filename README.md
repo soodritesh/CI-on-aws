@@ -4,6 +4,7 @@
 * AWS Account
 * Sonar Cloud Account
 * AWS CLI, Git installed on Local
+  
 
 ![](images/Project-6.png)
 
